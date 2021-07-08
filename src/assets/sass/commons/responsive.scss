@@ -1,0 +1,27 @@
+@media (max-width: 600px){
+    .background--two{
+        height: 1400px;
+
+        .block-section--two{
+            display: block;
+            //margin-top: 20px;
+            //text-align: center;
+            height: 90%;
+
+            & p{
+                text-align: left;
+                margin-left: 0;
+                margin-top: -380px;
+            }
+
+            & img{
+                margin: 0 auto;
+                max-width: 60%;
+            }
+        }
+    }
+
+    .footer-contain{
+        margin-top: calc(10px - 170px);
+    }
+}
